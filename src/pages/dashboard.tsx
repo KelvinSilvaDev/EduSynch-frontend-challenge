@@ -1,6 +1,7 @@
 import { Sidebar } from "@/components/Sidebar";
 import { Balance } from "@/components/Dashboard/Balance";
 import { Variation } from "@/components/Dashboard/Variation";
+import { Wallet } from "@/components/Dashboard/Wallet";
 
 const Dashboard = () => {
   return (
@@ -13,7 +14,7 @@ const Dashboard = () => {
           <Balance />
           <Variation />
         </div>
-        <h1>HELLO MAIN</h1>
+        <Wallet/>
       </main>
     </section>
   );
