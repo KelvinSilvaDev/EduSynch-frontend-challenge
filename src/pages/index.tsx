@@ -144,7 +144,7 @@ export default function Home() {
                 />
                 <button
                   type="submit"
-                  className="w-full px-4 py-3 mt-4 text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+                  className="w-full px-4 py-3 mt-4 text-white bg-[#FBAB34] rounded-3xl hover:bg-[#FBAB14] focus:outline-none focus:bg-blue-600"
                 >
                   Assinar
                 </button>
