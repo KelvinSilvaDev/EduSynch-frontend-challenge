@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "currences": [
+    {
+      "time": "2017-08-09T14:31:18.3150000Z",
+      "asset_id_base": "BTC",
+      "asset_id_quote": "BRL",
+      "rate": 3260.3514321215056208129867667
+    },
+    {
+      "time": "2017-08-09T14:31:18.3150000Z",
+      "asset_id_base": "DOG",
+      "asset_id_quote": "BRL",
+      "rate": 3160.3514321215056208129867667
+    },
+    {
+      "time": "2017-08-09T14:31:18.3150000Z",
+      "asset_id_base": "ETH",
+      "asset_id_quote": "BRL",
+      "rate": 2160.3514321215056208129867667
+    }
+  ]
+}

@@ -10,7 +10,7 @@ const Dashboard = () => {
       <aside>
         <Sidebar />
       </aside>
-      <main className=" px-8 py-18 flex w-full flex-col items-center align-middle justify-start bg-[#F9F9F9] h-[83vh]">
+      <main className=" px-8 py-18 flex w-full flex-col items-center align-middle justify-start bg-[#F9F9F9] h-[83vh] pb-10">
         <div className="w-full flex py-8 gap-4">
           <Balance />
           <Variation />
