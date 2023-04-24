@@ -42,6 +42,11 @@ O projeto está estruturado da seguinte forma:
 -   `.gitignore`: Lista os arquivos que serão ignorados pelo Git.
 -   `README.md`: Documentação do projeto.
 
+## Deploy
+
+O projeto foi hospedado na vercel, que foi escolhida justamente por sua ótima integração com Next.Js e pode ser acessado através do link:
+https://edu-synch-frontend-challenge.vercel.app/
+
 ## Considerações finais
 
 Este projeto foi criado como parte de um desafio de frontend e não foi possível concluir completamente a integração com a CoinApi. 
