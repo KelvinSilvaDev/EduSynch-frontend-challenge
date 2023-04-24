@@ -1,38 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# CoinSync
 
-First, run the development server:
+Este é um repositório para o projeto CoinSync, que consiste na criação de uma landing page e uma dashboard para exibir informações sobre criptomoedas, usando a CoinApi como fonte de dados. O projeto foi criado como parte do desafio de frontend da EduSynch.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Tecnologias utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   Next.js
+-   Tailwind CSS
+-   React.js
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Como executar o projeto
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Para executar o projeto, siga os seguintes passos:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1.  Clone o repositório em sua máquina local.
+2.  Instale as dependências usando o gerenciador de pacotes `npm` ou `yarn`.
+3.  Execute o comando `npm run dev` ou `yarn dev` para iniciar o servidor de desenvolvimento.
+4.  Abra o navegador e acesse `http://localhost:3000`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Funcionalidades
 
-## Learn More
+Este projeto tem como objetivo exibir informações sobre criptomoedas em uma landing page e em uma dashboard. Algumas das funcionalidades que foram implementadas incluem:
 
-To learn more about Next.js, take a look at the following resources:
+-   Exibir uma lista de criptomoedas disponíveis
+-   Exibir informações detalhadas sobre uma criptomoeda específica
+-   Exibir o preço atual de cada criptomoeda
+-   Exibir um gráfico de variação de preço da criptomoeda selecionada
+-   Permitir a busca de criptomoedas por nome ou símbolo
+-   Salvar criptomoedas favoritas do usuário na dashboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Estrutura do projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+O projeto está estruturado da seguinte forma:
 
-## Deploy on Vercel
+-   `components`: Contém todos os componentes React que são usados para construir a página.
+-   `pages`: Contém as páginas do aplicativo. O arquivo `index.js` é a página inicial, `coins` é a página que exibe os detalhes de cada criptomoeda, `dashboard` é a página da dashboard e `api` é uma rota que retorna uma lista de criptomoedas.
+-   `public`: Contém arquivos estáticos, como imagens.
+-   `styles`: Contém os arquivos de estilo, incluindo o arquivo `globals.css` para estilos globais e `tailwind.css` para estilos específicos do Tailwind.
+-   `next.config.js`: Arquivo de configuração do Next.js.
+-   `package.json`: Lista as dependências do projeto.
+-   `.gitignore`: Lista os arquivos que serão ignorados pelo Git.
+-   `README.md`: Documentação do projeto.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Considerações finais
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto foi criado como parte de um desafio de frontend e não foi possível concluir completamente a integração com a CoinApi. 
+
+Este projeto pode ser usado como ponto de partida para um projeto de dashboard de criptomoedas, com o objetivo de consumir dados da CoinApi ou outra API de criptomoedas. Sinta-se à vontade para clonar este repositório e contribuir para o projeto ou adaptá-lo às suas necessidades.
+
+Agradecimentos especiais à EduSynch pela oportunidade de participar deste desafio e aprender mais sobre desenvolvimento frontend.
